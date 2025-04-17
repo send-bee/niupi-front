@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="../css/contac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cafeteria Luna</title>
+</head>
+<body>
+    <aside>
+        <ul>
+            <a href="../index.html"><i class="bi bi-arrow-left"></i></a>
+            <h3>Contactanos</h3>
+            <li>Telefono</li>
+            <li>- (601) 777 7777</li>
+            <li>WhatsApp</li>
+            <li>- +57 300 000 0000</li>
+            <li>Correo</li>
+            <li>- cafeterialuna@email.com</li>
+            <li>Dirección</li>
+            <li>- Carrera 8 No. 56 - 19</li>
+            <li>Ciudad</li>
+            <li>- Bogotá D.C.</li>
+        </ul>
+        <div class="logo">
+            <img src="../assets/logo.svg" alt="Cafe Logo">
+            <h1>Cafeteria Luna</h1>
+            <h4>Ven e inspirate!</h4>
+        </div>
+    </aside>
+    <section>
+        <div>
+            <h1>¿Como llegar?</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63628.891193128795!2d-74.11967652951913!3d4.628726962079006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a39a51cc377%3A0xfd161270b957e802!2sSENA%20Direccion%20General!5e0!3m2!1ses!2sco!4v1744896266990!5m2!1ses!2sco"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div>
+            <h4>Dejanos saber tus sugerencias, quejas o reclamos con el siguiente formulario y en breve te daremos respuesta mediante nuestro correo de atención al cliente.</h4>
+            <form action="submit">
+                <label for="name">Nombre completo</label>
+                <div class="input-container">
+                    <i class="bi bi-person-circle icono-input"></i>
+                    <input required type="text" id="nombre" name="nombre" placeholder="Jhon Doe">
+                </div>
+                <label for="email">Correo electronico</label>
+                <div class="input-container">
+                    <i class="bi bi-envelope icono-input"></i>
+                    <input required type="email" id="correo" name="correo" placeholder="jhondoe@email.com">
+                </div>
+                <label for="message">Mensaje</label>
+                <div class="input-container">
+                    <i class="bi bi-pencil icono-input"></i>
+                    <textarea required type="text" id="mensaje" name="mensaje" placeholder="Mensaje..."></textarea>
+                </div>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
