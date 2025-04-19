@@ -140,3 +140,54 @@ footer {
 .footer-content a:hover {
     color: white;
 }
+
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        height: auto;
+        position: relative;
+    }
+
+    section {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+        margin-left: 5%;
+        padding: 0 10px;
+    }
+
+    .input-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 20px;
+    }
+
+    label {
+        padding: 0px 20px;
+    }
+
+    button {
+        margin: 10px 20px;
+        width: 100px;
+    }
+
+    .logo {
+        margin: 10px 0;
+    }
+    
+    footer {
+        grid-column: 1;
+    }
+}
